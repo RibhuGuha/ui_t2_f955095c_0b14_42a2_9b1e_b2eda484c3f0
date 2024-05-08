@@ -1,0 +1,80 @@
+{
+
+"property": [
+    {
+        "key": "PropId",
+        "type": "keyid"
+    }
+    
+    ,{
+        "key": "Title",
+        "label": "Title",
+        "type": "text",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "Title is required"
+        ]
+    }
+    ,{
+        "key": "Description2",
+        "label": "Description2",
+        "type": "text",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "Description2 is required"
+        ]
+    }
+    ,{
+        "key": "Address",
+        "label": "Address",
+        "type": "text",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "Address is required"
+        ]
+    }
+    ,{
+        "key": "PropDetails",
+        "label": "PropDetails",
+        "type": "dropdown",
+        "valueId": "Value",
+        "nameId": "Name",
+        "contentId": "Name",
+        "source": "Details",
+        "editable": true,
+        "validators": [
+            "required"
+                    , "isNumber"
+        ],
+        "validationMessages": [
+            "PropDetails is required"
+        ]
+    }
+    ,{
+        "key": "PropertyMainImage",
+        "label": "MainImage",
+        "type": "dropdown",
+        "valueId": "DocId",
+        "nameId": "FileName",
+        "contentId": "FileName",
+        "source": "Document",
+        "create": true,
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "MainImage is required"
+        ]
+    }
+]
+}

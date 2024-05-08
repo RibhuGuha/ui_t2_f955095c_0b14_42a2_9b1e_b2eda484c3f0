@@ -1,0 +1,70 @@
+{
+
+"booking": [
+    {
+        "key": "BookingId",
+        "type": "keyid"
+    }
+    
+    ,{
+        "key": "StartDate",
+        "label": "StartDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "StartDate is required"
+        ]
+    }
+    ,{
+        "key": "EndDate",
+        "label": "EndDate",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "EndDate is required"
+        ]
+    }
+    ,{
+        "key": "TotalNumberOfGuests",
+        "label": "TotalNumberOfGuests",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "TotalNumberOfGuests is required"
+        ]
+    }
+    ,{
+        "key": "NumberOfAdults",
+        "label": "NumberOfAdults",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "NumberOfAdults is required"
+        ]
+    }
+    ,{
+        "key": "NumberofChildren",
+        "label": "NumberofChildren",
+        "type": "date",
+        "editable": true,
+        "validators": [
+            "required"
+        ],
+        "validationMessages": [
+            "NumberofChildren is required"
+        ]
+    }
+]
+}
